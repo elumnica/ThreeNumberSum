@@ -11,6 +11,9 @@ If no 3 numbers sum up the target sum, the function should return an empty array
 
 */
 
+
+// O(n^2) time | O(n) space complexities
+
 function threeNumberSum(array, targetSum){
     array.sort((a,b) => a-b);
     const triplets = [];
